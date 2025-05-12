@@ -9,7 +9,7 @@ print("🤞행운을 빕니다.🤞")
 
 def generate_lotto_numbers():
      lotto_numbers = random.sample(range(1, 46), 6)  #1~45 중 6개 
-     lotto_numbers.sort()  # 번호를 정렬하면 보기 더 좋습니다
+     lotto_numbers.sort()  # 번호를 정렬하기
      return lotto_numbers
 
 
