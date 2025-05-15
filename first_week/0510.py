@@ -8,12 +8,12 @@
 
 
 #2.문자열을 입력받아 거꾸로 출력하세요 ex)입력받은 문자가  'python so bad' -> 출력 결과는  'dab os nohtyp'
-#print("문자를 입력해 주시오")
-#text =input()
+print("문자를 입력해 주시오")
+text =input()
 
-#re_text=' '.join(word[::-1] for word in text.split())
+re_text=' '.join(word[::-1] for word in text.split())
 
-#print(f"출력결과는 {re_text}")
+print(f"출력결과는 {re_text}")
 
 
 
